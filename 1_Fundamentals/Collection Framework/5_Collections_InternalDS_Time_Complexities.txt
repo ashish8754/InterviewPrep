@@ -13,6 +13,12 @@ Collection Framework
             -> remove(item) -> this is traversal for search + removal, so O(N)
             -> 
         -> LinkedList
+           -> add() – appends an element to the end of the list. It only updates a tail, and therefore, it's O(1) constant-time complexity.
+           -> add(index, element) – moves the rest of elements a certain index so O(n)
+           -> get() – searching for an element takes O(n) time.
+           -> remove(element) – to remove an element, we first need to find it. This operation is O(n).
+           -> remove(index) – to remove an element by index, we first need to follow the links from the beginning; therefore, the overall complexity is O(n).
+           -> contains() – also has O(n) time complexity
         -> Stack
             -> Follows LIFO
             -> Good for backtracking
@@ -26,6 +32,7 @@ Collection Framework
             -> This internally uses Hash Map.
                 -> They key of this hash map is the item itself which we are storing and the value is an Object called "PRESENT" (it is constant)
         -> LinkedHashSet
+            -> add(), remove() and contains() operations cost constant O(1) time thanks to the internal HashMap implementation.
         -> TreeSet
             -> This internally implements Self Balancing Binary Search Tree (Red-Black Tree)
                 -> Therefore the data is always sorted.
