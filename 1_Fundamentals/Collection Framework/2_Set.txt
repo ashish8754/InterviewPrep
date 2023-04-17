@@ -1,6 +1,6 @@
 Set
 
--> If we do not care about insertion order of the elements and we do not want duplicates, we can choose duplicates.
+-> If we do not care about insertion order of the elements and we do not want duplicates, we can choose set.
 -> It is child interface of Collection Framework
 -> Set Interface provides following implementation classes
 	-> HashSet and it's further child class, LinkedHashSet
